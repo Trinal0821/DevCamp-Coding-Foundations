@@ -87,7 +87,7 @@
 }
 
 /*Right Column Styles */
-.navigation-wrapper > .right-column > address-wrapper {
+.navigation-wrapper > .right-column > .address-wrapper {
   font-family: 'Ubuntu Condensed', sans-serif;
   text-align: right;
 }

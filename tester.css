@@ -1,0 +1,53 @@
+ body{ 
+   margin: 0px; 
+  font-family: 'Roboto', sans-serif; 
+}
+
+
+.navigation-wrapper{ 
+  height: 190px; 
+  background-color: #11122b; 
+  color: #cbcbcb; 
+  display: flex; 
+  justify-content: space-between ; 
+  align-items: center; 
+  padding: 60px 100px; }
+
+.navigation-wrapper >.Left-Column{ 
+  display: flex; 
+  align-items: center;
+
+}
+
+.navigation-wrapper > .Left-Column >.icon
+{ 
+  margin-right: 15px; 
+}
+
+.navigation-wrapper > .Left-Column >.icon i
+{ 
+  font-size: 2em; 
+}
+
+.navigation-wrapper > .Left-Column >.contact-hours-wrapper
+{ display: grid; 
+  grid-template-columns: 1fr ; 
+  grid-gap: 10px;
+
+}
+
+.navigation-wrapper > .Left-Column > .contact-hours-wrapper > .hours
+{ 
+  font-family: 'Ubuntu Condensed', sans-serif; 
+}
+
+.links-wrapper >.Nav-Link a 
+{ 
+  font-family: 'Ubuntu Condensed', sans-serif; 
+  color:white; 
+}
+
+.navigation-wrapper > .right-column >.address-wrapper 
+{ 
+  font-family: 'Ubuntu Condensed', sans-serif;
+}

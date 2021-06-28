@@ -5,76 +5,190 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Menu</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
   <link rel="stylesheet" href="styles/common.css">
   <link rel="stylesheet" href="styles/nav.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/skewed-header.css">
+  <link rel="stylesheet" href="styles/square-grid.css">
+  <link rel="stylesheet" href="styles/helpers.css">
+  <link rel="stylesheet" href="styles/media-queries.css">
 </head>
 
 <body>
-  <div class="navigation-wrapper">
-
-    <div class="left-column">
-
-      <div class="icon">
-        <i class="fas fa-phone-volume"></i>
-      </div>
-
-      <div class="contact-hours-wrapper">
-        <div class="phone">
-          555 555 555
+  <div class="skewed-header">
+    <div class="header-bg" style="background-image: url('image/background/menu.jpg');"></div>
+    <div class="skewed-header-wrapper">
+      <div class="skewed-header-content">
+        <div class="heading-wrapper">
+          <h1>Menu</h1>
         </div>
 
-        <div class="hours">
-          10 AM - MIDNIGHT
-        </div>
 
-      </div>
-    </div>
 
-    <!-- Link wrapper -->
-    <div class="center-column">
-      <div class="banner-image">
-        <img src="image/frieslogo.png" alt="Logo">
-      </div>
-      <div class="links-wrapper">
-        <div class="nav-link">
-          <a href="index.html">Home</a>
-        </div>
+        <div class="links-wrapper">
+          <div class="nav-link">
+            <a href="index.html">Home</a>
+          </div>
 
-        <div class="nav-link">
-          <a href="about.html">About</a>
-        </div>
+          <div class="nav-link">
+            <a href="about.html">About</a>
+          </div>
 
-        <div class="nav-link">
-          <a href="menu.html">Menu</a>
-        </div>
+          <div class="nav-link">
+            <a href="menu.html">Menu</a>
+          </div>
 
-        <div class="nav-link">
-          <a href="contact.html">Contact</a>
+          <div class="nav-link">
+            <a href="contact.html">Contact</a>
+          </div>
         </div>
       </div>
     </div>
+  </div>
+  </div>
 
-    <div class="right-column">
-      <div class="address-wrapper">
-        <a href="contact.html">
-          123 Any Street <br>
-          Scottsdale, AZ, 85251
-        </a>
+  <div class="squares-wrapper">
+    <div class="squares">
+      <div class="square">
+        <div class="img-wrapper">
+          <img src="image/background/square1.jpg" alt="Fries1">
+        </div>
+
+        <div class="square-text-wrapper">
+
+          <a href="#spicy" name="spicy" class="anchor-link">
+            <h1>Spicy</h1>
+          </a>
+
+          <ul>
+            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+            <li>Ratione delectus voluptas ullam illum repellendus est neque?</li>
+            <li>Provident animi harum quibusdam tempora aut molestias tenetur.</li>
+            <li>Amet, quam omnis saepe non necessitatibus tempora eligendi.</li>
+          </ul>
+        </div>
       </div>
 
-      <div class="contact-icon">
-        <a href="contact.html">
-          <i class="fas fa-map-marker-alt"></i>
-        </a>
+      <div class="square">
+        <div class="square-text-wrapper">
+          <a href="#medium" name="medium" class="anchor-link">
+            <h1>Medium</h1>
+          </a>
+
+          <ol>
+            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+            <li>Ratione delectus voluptas ullam illum repellendus est neque?</li>
+            <li>Provident animi harum quibusdam tempora aut molestias tenetur.</li>
+            <li>Amet, quam omnis saepe non necessitatibus tempora eligendi.</li>
+          </ol>
+        </div>
+
+        <div class="img-wrapper">
+          <img src="image/background/square2.jpg" alt="Fries2">
+        </div>
+      </div>
+
+      <div class="square">
+        <div class="img-wrapper">
+          <img src="image/background/square1.jpg" alt="Fries1">
+        </div>
+
+        <div class="square-text-wrapper">
+          <a href="#mild" name="mild" class="anchor-link">
+            <h1>Mild</h1>
+          </a>
+
+          <ul>
+            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+            <li>Ratione delectus voluptas ullam illum repellendus est neque?</li>
+            <li>Provident animi harum quibusdam tempora aut molestias tenetur.</li>
+            <li>Amet, quam omnis saepe non necessitatibus tempora eligendi.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="square">
+        <div class="square-text-wrapper">
+          <a href="#noflavor" name="noflavor" class="anchor-link">
+            <h1>No Flavor</h1>
+          </a>
+
+          <ul>
+            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+            <li>Ratione delectus voluptas ullam illum repellendus est neque?</li>
+            <li>Provident animi harum quibusdam tempora aut molestias tenetur.</li>
+            <li>Amet, quam omnis saepe non necessitatibus tempora eligendi.</li>
+          </ul>
+        </div>
+
+        <div class="img-wrapper">
+          <img src="image/background/square2.jpg" alt="Fries2">
+        </div>
       </div>
 
     </div>
+  </div>
+
+  <div class="footer">
+    <div class="logo-footer">
+      <img src="image/logo/frieslogo.png" alt="Logo">
+    </div>
+
+    <div class="footer-phone-hours">
+      <span class="phone">
+        555 555 555
+      </span>
+
+      <span class="hours">
+        10 am - MIDNIGHT
+      </span>
+    </div>
+
+    <div class="links-wrapper">
+      <div class="nav-link">
+        <a href="index.html">Home</a>
+      </div>
+
+      <div class="nav-link">
+        <a href="about.html">About</a>
+      </div>
+
+      <div class="nav-link">
+        <a href="menu.html">Menu</a>
+      </div>
+
+      <div class="nav-link">
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+
+    <div class="social-media-icons-wrapper">
+      <a href="#">
+        <i class="fab fa-instagram"></i>
+      </a>
+
+      <a href="#">
+        <i class="fab fa-twitter"></i>
+      </a>
+
+      <a href="#">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </div>
+
+    <div class="copyright-wrapper">
+      &copy; 2021 DevCamp &#124; All Rights Reserved
+    </div>
+
   </div>
 </body>
 
